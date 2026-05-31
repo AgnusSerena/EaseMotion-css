@@ -1,26 +1,18 @@
-# Glow Card Emphasis
+# Animation: Glow Card Emphasis
 
-**What does this do?**
-Adds an animated glow effect to card components during hover interactions. The card gently lifts while a soft multi-color glow pulses around its edges, creating emphasis and drawing attention to important content.
+## Description
+A premium breathing glow animation loop designed to add neon light highlights and subtle lifting motion to card components during active emphasis states.
 
-**How is it used?**
+## Features
+- Pure CSS keyframe loop (Zero JavaScript dependencies for animation)
+- Immersive cubic-bezier translation and shadow scaling
+- Responsive and highly performant (utilizes hardware-accelerated transforms)
+- Cross-browser compatible (Chrome, Firefox, Safari, Edge)
 
+## Usage
+Apply the loop emphasis by adding `.emphasis-active` or by hovering over a `.glow-card` component:
 ```html
-<div class="glow-card">
-  <h2>Analytics</h2>
-  <p>Track user engagement with detailed insights.</p>
+<div class="glow-card emphasis-active">
+  <!-- Card content -->
 </div>
 ```
-
-**Why is it useful?**
-Cards are one of the most common UI building blocks in modern interfaces. Highlighting important cards through subtle motion and glowing emphasis helps improve discoverability without overwhelming the design. The effect is particularly useful for featured products, pricing plans, dashboard widgets, announcements, and call-to-action sections.
-
-Because the animation relies entirely on CSS transforms and shadows, it remains lightweight, performant, and easy to apply across a wide range of layouts.
-
----
-
-Submitted by: @your-github-username
-
-Date: 2026-05-31
-
-Status: **Pending review**
